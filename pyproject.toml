@@ -16,6 +16,7 @@ dependencies = [
 
 [project.scripts]
 udacity-agentic-ai-engineer-with-langchain-and-langgraph = "udacity_agentic_ai_engineer_with_langchain_and_langgraph:main"
+L1-langchain-agentic-ai-fundamentals = "L1_langchain_agentic_ai_fundamentals:main"
 
 [build-system]
 requires = ["uv_build>=0.12.3,<0.13.0"]
