@@ -7,7 +7,12 @@ authors = [
     { name = "Amol Jagtap", email = "amoljagtap17@gmail.com" }
 ]
 requires-python = ">=3.14"
-dependencies = []
+dependencies = [
+    "langchain>=1.4.2",
+    "langchain-openai>=1.6.2",
+    "notebook>=7.6.2",
+    "python-dotenv>=1.2.3",
+]
 
 [project.scripts]
 udacity-agentic-ai-engineer-with-langchain-and-langgraph = "udacity_agentic_ai_engineer_with_langchain_and_langgraph:main"
