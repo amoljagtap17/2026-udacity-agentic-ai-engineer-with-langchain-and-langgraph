@@ -2044,6 +2044,7 @@ dependencies = [
     { name = "jupyter" },
     { name = "langchain" },
     { name = "langchain-openai" },
+    { name = "langgraph" },
     { name = "notebook" },
     { name = "python-dotenv" },
 ]
@@ -2058,6 +2059,7 @@ requires-dist = [
     { name = "jupyter", specifier = ">=1.1.1" },
     { name = "langchain", specifier = ">=1.4.2" },
     { name = "langchain-openai", specifier = ">=1.6.2" },
+    { name = "langgraph", specifier = ">=1.2.11" },
     { name = "notebook", specifier = ">=7.6.2" },
     { name = "python-dotenv", specifier = ">=1.2.3" },
 ]
