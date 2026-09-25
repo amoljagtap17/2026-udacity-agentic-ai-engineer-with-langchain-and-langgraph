@@ -14,11 +14,13 @@ dependencies = [
     "langgraph>=1.2.11",
     "notebook>=7.6.2",
     "python-dotenv>=1.2.3",
+    "requests>=2.34.2",
 ]
 
 [project.scripts]
 udacity-agentic-ai-engineer-with-langchain-and-langgraph = "udacity_agentic_ai_engineer_with_langchain_and_langgraph:main"
 L1-langchain-agentic-ai-fundamentals = "L1_langchain_agentic_ai_fundamentals:main"
+L2-building-ai-agents-with-langgraph = "L2_building_ai_agents_with_langgraph:main"
 
 [build-system]
 requires = ["uv_build>=0.12.3,<0.13.0"]
