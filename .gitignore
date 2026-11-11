@@ -10,3 +10,5 @@ wheels/
 .venv
 
 .env
+data
+chroma_langchain_db
