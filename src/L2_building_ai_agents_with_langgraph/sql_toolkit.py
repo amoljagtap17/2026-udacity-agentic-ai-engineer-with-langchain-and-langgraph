@@ -1,4 +1,3 @@
-from typing import List
 
 import sqlalchemy
 from langchain_core.runnables.config import RunnableConfig
@@ -8,7 +7,7 @@ from sqlalchemy.engine.base import Engine
 
 
 @tool
-def list_tables_tool(config: RunnableConfig) -> List[str]:
+def list_tables_tool(config: RunnableConfig) -> list[str]:
     """
     List all tables in database
     """
@@ -19,7 +18,7 @@ def list_tables_tool(config: RunnableConfig) -> List[str]:
 
 
 @tool
-def get_table_schema_tool(table_name: str, config: RunnableConfig) -> List[str]:
+def get_table_schema_tool(table_name: str, config: RunnableConfig) -> list[str]:
     """
     Get schema information about a table. Returns a list of dictionaries.
     - name is the column name
